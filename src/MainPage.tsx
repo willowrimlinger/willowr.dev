@@ -1,5 +1,5 @@
 import { ActionIcon, Box, Button, Center, em, Grid, Group, 
-    ScrollArea, Stack, useMantineTheme } from "@mantine/core";
+    Stack, useMantineTheme } from "@mantine/core";
 import { useMediaQuery } from "@mantine/hooks";
 import { IconBriefcase2, IconCode, IconHome, IconMail, IconUser } from "@tabler/icons-react";
 import Projects from "./components/Projects";
