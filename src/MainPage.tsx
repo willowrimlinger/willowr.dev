@@ -40,6 +40,11 @@ export default function MainPage() {
     const theme = useMantineTheme();
 
     const isSmallMobile = useMediaQuery(`(max-width: ${em(350)})`);
+    const isFirefox = navigator.userAgent.toLowerCase().includes('firefox');
+    const mobileNavbarHeight = "5em";
+    const mobileHeight = isFirefox ?
+        `calc(100vh - ${mobileNavbarHeight})`
+        : `calc(100dvh - ${mobileNavbarHeight})`;
 
     const buttons = BUTTONS_INFO.map((button, idx) => 
         <Button
@@ -64,9 +69,6 @@ export default function MainPage() {
             {button.icon}
         </ActionIcon>
     );
-
-    const mobileNavbarHeight = "5rem";
-    const mobileHeight = "calc(100vh - " + mobileNavbarHeight + ")";
 
     return (
         <Grid h="100vh" gutter="0" overflow="hidden">
@@ -112,7 +114,7 @@ export default function MainPage() {
             </Grid.Col>
             <Grid.Col span={{base: 12, md: 9}}>
                 <Box 
-                    h={{base: "calc(100vh - 5rem)", md: "100vh"}}
+                    h={{base: mobileHeight, md: "100vh"}}
                     style={{scrollBehavior: "smooth", overflowY: "scroll"}}
                 >
                     <Stack gap={0}>
