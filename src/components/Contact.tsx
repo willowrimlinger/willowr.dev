@@ -31,15 +31,15 @@ export default function Contact(props: PageProps) {
                         aria-label="Email"
                         title="Email"
                         onClick={() => {
-                            setEmailRecipient("mwrimlinger");
-                            setEmailDomain("gmail.com")
+                            setEmailRecipient("hey");
+                            setEmailDomain("willowr.dev")
                         }}
                     >
                         <IconMail/>
                     </ActionIcon>
                     <ActionIcon
                         component="a"
-                        href="https://linkedin.com/in/maxrimlinger"
+                        href="https://linkedin.com/in/willowrimlinger"
                         target="_blank"
                         size="xl"
                         aria-label="LinkedIn"

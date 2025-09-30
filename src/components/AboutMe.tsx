@@ -18,9 +18,9 @@ export default function AboutMe(props: PageProps) {
                     About Me
                 </Title>
                 <Text size="lg">
-                    I am a 3rd year undergraduate computer science student at Rochester Institute of Technology.
+                    I am a 4th year undergraduate computer science student at Rochester Institute of Technology.
                     I love to program, but in my free time I enjoy playing the drums, rock climbing,
-                    making music, and hiking.
+                    making music, hiking, and juggling.
                 </Text>
             </Stack>
         </Center>

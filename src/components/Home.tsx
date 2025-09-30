@@ -9,7 +9,7 @@ export default function Home(props: PageProps) {
             bg="blue"
             id={props.id}
         >
-            <Title size="5rem" c="white">Hi.<br/>I'm Max.</Title>
+            <Title size="5rem" c="white">Hi.<br/>I'm Willow.</Title>
         </Center>
     )
 }

@@ -4,28 +4,28 @@ import { PageProps } from "../types/pageProps";
 
 const PROJECTS_INFO =[
     {
-        name: "maxrimlinger.com",
-        link: "https://github.com/maxrimlinger/maxrimlinger.com",
+        name: "willowr.dev",
+        link: "https://github.com/willowrimlinger/willowr.dev",
         icon: <IconWorldWww/>,
     },
     {
-        name: "Mim",
-        link: "https://github.com/maxrimlinger/mim",
+        name: "Wim",
+        link: "https://github.com/willowrimlinger/Wim",
         icon: <IconAlignBoxLeftTop/>,
     },
     {
         name: "Planetary Portfolio",
-        link: "https://github.com/maxrimlinger/planetaryportfolio",
+        link: "https://github.com/willowrimlinger/planetaryportfolio",
         icon: <IconPlanet/>,
     },
     {
         name: "Discord Clone",
-        link: "https://github.com/maxrimlinger/discord-clone",
+        link: "https://github.com/willowrimlinger/discord-clone",
         icon: <IconBrandDiscord/>,
     },
     {
         name: "Chess Puzzle",
-        link: "https://github.com/maxrimlinger/chess-puzzle",
+        link: "https://github.com/willowrimlinger/chess-puzzle",
         icon: <IconChess/>,
     },
 ] 
